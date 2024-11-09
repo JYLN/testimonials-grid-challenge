@@ -1,3 +1,6 @@
+@import "npm:@fontsource/barlow-semi-condensed/500.css";
+@import "npm:@fontsource/barlow-semi-condensed/600.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
