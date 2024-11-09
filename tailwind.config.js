@@ -5,8 +5,8 @@ module.exports = {
     colors: {
       darkblackishblue: "#19202D",
       darkgrayishblue: "#48556A",
+      lightgray: "#CFCFCF",
       lightgrayishblue: "#ECF2F8",
-      primary: "#CFCFCF",
       white: "#FFFFFF",
       violet: {
         DEFAULT: "#733FC8",
@@ -14,6 +14,9 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        card: "2.5rem 3.75rem 3.125rem -2.9375rem rgba(72, 85, 106, 0.25)",
+      },
       fontFamily: {
         barlow: ["Barlow Semi Condensed", "sans-serif"],
       },
